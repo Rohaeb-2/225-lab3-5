@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
-        DOCKER_IMAGE = 'cithit/air2'                                                                    //<------change this
+        DOCKER_IMAGE = 'cithit/alir2'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Rohaeb-2/225-lab3-5.git'                                          //<------change this
         KUBECONFIG = credentials('alir2-225')                                                         //<------change this
